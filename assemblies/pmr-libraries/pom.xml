@@ -3,20 +3,20 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>pentaho</groupId>
-    <artifactId>pentaho-big-data-assemblies</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-big-data-assemblies</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>pentaho-big-data-assemblies-pmr-libraries</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <artifactId>tahopen-big-data-assemblies-pmr-libraries</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
     <publish-sonar-phase>site</publish-sonar-phase>
     <blueprints-core.version>2.6.0</blueprints-core.version>
     <rxjava.version>2.2.3</rxjava.version>
     <jsch.version>0.2.9</jsch.version>
-    <encryption-support.version>10.1.0.0-SNAPSHOT</encryption-support.version>
-    <pdi-osgi-bridge.version>10.1.0.0-SNAPSHOT</pdi-osgi-bridge.version>
+    <encryption-support.version>9.4.0.0-SNAPSHOT</encryption-support.version>
+    <pdi-osgi-bridge.version>0.1.0.0-SNAPSHOT</pdi-osgi-bridge.version>
   </properties>
   <dependencies>
     <dependency>
@@ -608,7 +608,7 @@
       <version>${ini4j.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>json</artifactId>
       <version>${pentaho-json.version}</version>
     </dependency>
@@ -716,7 +716,7 @@
       <artifactId>snakeyaml</artifactId>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
       <version>${pdi.version}</version>
     </dependency>
@@ -726,7 +726,7 @@
       <version>${encryption-support.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
       <version>${pdi.version}</version>
 	  <exclusions>
@@ -745,73 +745,73 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-ui-swt</artifactId>
       <version>${pdi.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.library</groupId>
+      <groupId>org.tahopen.reporting.library</groupId>
       <artifactId>flute</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.library</groupId>
+      <groupId>org.tahopen.reporting.library</groupId>
       <artifactId>libbase</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.library</groupId>
+      <groupId>org.tahopen.reporting.library</groupId>
       <artifactId>libdocbundle</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.library</groupId>
+      <groupId>org.tahopen.reporting.library</groupId>
       <artifactId>libfonts</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.library</groupId>
+      <groupId>org.tahopen.reporting.library</groupId>
       <artifactId>libformat</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.library</groupId>
+      <groupId>org.tahopen.reporting.library</groupId>
       <artifactId>libformula</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.library</groupId>
+      <groupId>org.tahopen.reporting.library</groupId>
       <artifactId>libloader</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.library</groupId>
+      <groupId>org.tahopen.reporting.library</groupId>
       <artifactId>libpixie</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.library</groupId>
+      <groupId>org.tahopen.reporting.library</groupId>
       <artifactId>librepository</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.library</groupId>
+      <groupId>org.tahopen.reporting.library</groupId>
       <artifactId>libserializer</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.library</groupId>
+      <groupId>org.tahopen.reporting.library</groupId>
       <artifactId>libswing</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.library</groupId>
+      <groupId>org.tahopen.reporting.library</groupId>
       <artifactId>libxml</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pdi-osgi-bridge-core</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tdi-osgi-bridge-core</artifactId>
       <version>${pdi-osgi-bridge.version}</version>
     </dependency>
     <dependency>
@@ -820,57 +820,57 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>simple-jndi</artifactId>
-      <version>${simple-jndi.version}</version>
+      <version>0.1.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-osgi-utils-api</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-osgi-utils-api</artifactId>
       <version>${pentaho-osgi-bundles.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>shim-api-core</artifactId>
       <version>${pentaho-hadoop-shims.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-capability-manager</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-capability-manager</artifactId>
       <version>${pentaho-osgi-bundles.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>metastore</artifactId>
       <version>${metastore.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>mondrian</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>drianmon</artifactId>
       <version>${mondrian.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-database-model</artifactId>
       <version>${commons-database.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
-      <artifactId>pentaho-metadata</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-metadata</artifactId>
       <version>${pentaho-metadata.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
-      <artifactId>pentaho-registry</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-registry</artifactId>
       <version>${pentaho-registry.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.reporting.engine</groupId>
+      <groupId>org.tahopen.reporting.engine</groupId>
       <artifactId>classic-core</artifactId>
       <version>${pentaho-reporting.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>commons-xul-core</artifactId>
       <version>${commons-xul.version}</version>
     </dependency>
@@ -978,8 +978,8 @@
       <artifactId>jetty-xml</artifactId>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-service-coordinator</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-service-coordinator</artifactId>
       <version>${pentaho-osgi-bundles.version}</version>
     </dependency>
     <dependency>
@@ -995,18 +995,18 @@
       <artifactId>log4j-core</artifactId>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-platform-api</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-platform-api</artifactId>
       <version>${platform.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-platform-core</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-platform-core</artifactId>
       <version>${platform.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-platform-extensions</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-platform-extensions</artifactId>
       <version>${platform.version}</version>
       <exclusions>
         <exclusion>
@@ -1042,8 +1042,8 @@
       <artifactId>kafka-clients</artifactId>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-metaverse-api</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-metaverse-api</artifactId>
       <version>${pentaho-metaverse.version}</version>
     </dependency>
     <dependency>
@@ -1058,13 +1058,13 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
-      <artifactId>pentaho-metastore-locator-api</artifactId>
+      <groupId>org.tahopen.di.plugins</groupId>
+      <artifactId>tahopen-metastore-locator-api</artifactId>
       <version>${pdi.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
-      <artifactId>pentaho-kettle-repository-locator-api</artifactId>
+      <groupId>org.tahopen.di.plugins</groupId>
+      <artifactId>tahopen-kettle-repository-locator-api</artifactId>
       <version>${pdi.version}</version>
     </dependency>
   </dependencies>

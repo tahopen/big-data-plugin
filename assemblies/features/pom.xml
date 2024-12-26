@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>pentaho</groupId>
-    <artifactId>pentaho-big-data-assemblies</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-big-data-assemblies</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>pentaho-karaf-features</groupId>
-  <artifactId>pentaho-big-data-plugin-osgi</artifactId>
+  <groupId>tahopen-karaf-features</groupId>
+  <artifactId>tahopen-big-data-plugin-osgi</artifactId>
 
   <packaging>feature</packaging>
 

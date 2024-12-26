@@ -6,12 +6,12 @@
         <hbase.version>1.4.8</hbase.version>
     </properties>
     <parent>
-        <groupId>pentaho</groupId>
-        <artifactId>pentaho-big-data-kettle-plugins</artifactId>
-        <version>10.1.0.0-SNAPSHOT</version>
+        <groupId>org.tahopen</groupId>
+        <artifactId>tahopen-big-data-kettle-plugins</artifactId>
+        <version>0.1.0.0-SNAPSHOT</version>
     </parent>
-    <artifactId>pentaho-big-data-kettle-plugins-hbase-meta</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <artifactId>tahopen-big-data-kettle-plugins-hbase-meta</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <dependencies>
         <dependency>
@@ -21,17 +21,17 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.pentaho</groupId>
+            <groupId>org.tahopen</groupId>
             <artifactId>shim-api</artifactId>
             <version>${pentaho-hadoop-shims.version}</version>
         </dependency>
         <dependency>
-            <groupId>pentaho-kettle</groupId>
+            <groupId>tahopen-kettle</groupId>
             <artifactId>kettle-core</artifactId>
             <version>${pdi.version}</version>
         </dependency>
         <dependency>
-            <groupId>pentaho-kettle</groupId>
+            <groupId>tahopen-kettle</groupId>
             <artifactId>kettle-engine</artifactId>
             <version>${pdi.version}</version>
         </dependency>

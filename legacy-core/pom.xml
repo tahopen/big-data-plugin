@@ -7,6 +7,7 @@
         <artifactId>tahopen-big-data-bundles</artifactId>
         <version>0.1.0.0-SNAPSHOT</version>
     </parent>
+    <groupId>org.tahopen</groupId>
     <artifactId>tahopen-big-data-legacy-core</artifactId>
     <packaging>jar</packaging>
     <version>0.1.0.0-SNAPSHOT</version>
@@ -27,3 +28,4 @@
         </dependency>
     </dependencies>
 </project>
+

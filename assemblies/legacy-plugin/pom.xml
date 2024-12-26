@@ -3,12 +3,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>pentaho</groupId>
-    <artifactId>pentaho-big-data-assemblies</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-big-data-assemblies</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>pentaho-big-data-plugin</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <artifactId>tahopen-big-data-plugin</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <licenses>
     <license>
@@ -18,11 +18,6 @@
       <comments>A business-friendly OSS license</comments>
     </license>
   </licenses>
-  <scm>
-    <connection>scm:git:git@github.com:${github.user}/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:${github.user}/${project.artifactId}.git</developerConnection>
-    <url>scm:git:git@github.com:${github.user}/${project.artifactId}.git</url>
-  </scm>
   <properties>
     <publish-sonar-phase>site</publish-sonar-phase>
   </properties>
@@ -46,13 +41,13 @@
 
   <dependencies>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-big-data-legacy</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-big-data-legacy</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-big-data-legacy-amazon</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-big-data-legacy-amazon</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
@@ -196,8 +191,8 @@
       <artifactId>xstream</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.hadoop.shims</groupId>
-      <artifactId>pentaho-hadoop-shims-cdh61-pmr-libs</artifactId>
+      <groupId>org.tahopen.hadoop.shims</groupId>
+      <artifactId>tahopen-hadoop-shims-cdh61-pmr-libs</artifactId>
       <version>${pentaho-hadoop-shims-cdh61.version}</version>
       <type>zip</type>
       <scope>provided</scope>
@@ -209,8 +204,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.hadoop.shims</groupId>
-      <artifactId>pentaho-hadoop-shims-hdp30-pmr-libs</artifactId>
+      <groupId>org.tahopen.hadoop.shims</groupId>
+      <artifactId>tahopen-hadoop-shims-hdp30-pmr-libs</artifactId>
       <version>${pentaho-hadoop-shims-hdp30.version}</version>
       <type>zip</type>
       <scope>provided</scope>
@@ -222,8 +217,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.hadoop.shims</groupId>
-      <artifactId>pentaho-hadoop-shims-emr521-pmr-libs</artifactId>
+      <groupId>org.tahopen.hadoop.shims</groupId>
+      <artifactId>tahopen-hadoop-shims-emr521-pmr-libs</artifactId>
       <version>${pentaho-hadoop-shims-emr521.version}</version>
       <type>zip</type>
       <scope>provided</scope>
@@ -235,8 +230,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.hadoop.shims</groupId>
-      <artifactId>pentaho-hadoop-shims-dataproc1421-pmr-libs</artifactId>
+      <groupId>org.tahopen.hadoop.shims</groupId>
+      <artifactId>tahopen-hadoop-shims-dataproc1421-pmr-libs</artifactId>
       <version>${pentaho-hadoop-shims-dataproc1421.version}</version>
       <type>zip</type>
       <scope>provided</scope>
@@ -248,8 +243,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.hadoop.shims</groupId>
-      <artifactId>pentaho-hadoop-shims-cdpdc71-pmr-libs</artifactId>
+      <groupId>org.tahopen.hadoop.shims</groupId>
+      <artifactId>tahopen-hadoop-shims-cdpdc71-pmr-libs</artifactId>
       <version>${pentaho-hadoop-shims-cdpdc71.version}</version>
       <type>zip</type>
       <scope>provided</scope>
@@ -261,8 +256,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.hadoop.shims</groupId>
-      <artifactId>pentaho-hadoop-shims-hdi40-pmr-libs</artifactId>
+      <groupId>org.tahopen.hadoop.shims</groupId>
+      <artifactId>tahopen-hadoop-shims-hdi40-pmr-libs</artifactId>
       <version>${pentaho-hadoop-shims-hdi40.version}</version>
       <type>zip</type>
       <scope>provided</scope>
@@ -274,8 +269,8 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-big-data-assemblies-pmr-libraries</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-big-data-assemblies-pmr-libraries</artifactId>
       <version>${project.version}</version>
       <type>zip</type>
       <classifier>plugin</classifier>
@@ -283,7 +278,7 @@
     <dependency>
       <groupId>pentaho</groupId>
       <artifactId>oss-licenses</artifactId>
-      <version>${oss-licenses.version}</version>
+      <version>9.4.0.0-SNAPSHOT</version>
       <type>zip</type>
       <scope>provided</scope>
     </dependency>
@@ -318,38 +313,38 @@
             <configuration>
               <artifactItems>
                 <artifactItem>
-                  <groupId>org.pentaho.hadoop.shims</groupId>
-                  <artifactId>pentaho-hadoop-shims-cdh61-pmr-libs</artifactId>
+                  <groupId>org.tahopen.hadoop.shims</groupId>
+                  <artifactId>tahopen-hadoop-shims-cdh61-pmr-libs</artifactId>
                   <type>zip</type>
                   <outputDirectory>${basedir}/target/plugins/pentaho-big-data-plugin/hadoop-configurations</outputDirectory>
                 </artifactItem>
                 <artifactItem>
-                  <groupId>org.pentaho.hadoop.shims</groupId>
-                  <artifactId>pentaho-hadoop-shims-hdp30-pmr-libs</artifactId>
+                  <groupId>org.tahopen.hadoop.shims</groupId>
+                  <artifactId>tahopen-hadoop-shims-hdp30-pmr-libs</artifactId>
                   <type>zip</type>
                   <outputDirectory>${basedir}/target/plugins/pentaho-big-data-plugin/hadoop-configurations</outputDirectory>
                 </artifactItem>
                 <artifactItem>
-                  <groupId>org.pentaho.hadoop.shims</groupId>
-                  <artifactId>pentaho-hadoop-shims-emr521-pmr-libs</artifactId>
+                  <groupId>org.tahopen.hadoop.shims</groupId>
+                  <artifactId>tahopen-hadoop-shims-emr521-pmr-libs</artifactId>
                   <type>zip</type>
                   <outputDirectory>${basedir}/target/plugins/pentaho-big-data-plugin/hadoop-configurations</outputDirectory>
                 </artifactItem>
                 <artifactItem>
-                  <groupId>org.pentaho.hadoop.shims</groupId>
-                  <artifactId>pentaho-hadoop-shims-dataproc1421-pmr-libs</artifactId>
+                  <groupId>org.tahopen.hadoop.shims</groupId>
+                  <artifactId>tahopen-hadoop-shims-dataproc1421-pmr-libs</artifactId>
                   <type>zip</type>
                   <outputDirectory>${basedir}/target/plugins/pentaho-big-data-plugin/hadoop-configurations</outputDirectory>
                 </artifactItem>
                 <artifactItem>
-                  <groupId>org.pentaho.hadoop.shims</groupId>
-                  <artifactId>pentaho-hadoop-shims-cdpdc71-pmr-libs</artifactId>
+                  <groupId>org.tahopen.hadoop.shims</groupId>
+                  <artifactId>tahopen-hadoop-shims-cdpdc71-pmr-libs</artifactId>
                   <type>zip</type>
                   <outputDirectory>${basedir}/target/plugins/pentaho-big-data-plugin/hadoop-configurations</outputDirectory>
                 </artifactItem>
                 <artifactItem>
-                  <groupId>org.pentaho.hadoop.shims</groupId>
-                  <artifactId>pentaho-hadoop-shims-hdi40-pmr-libs</artifactId>
+                  <groupId>org.tahopen.hadoop.shims</groupId>
+                  <artifactId>tahopen-hadoop-shims-hdi40-pmr-libs</artifactId>
                   <type>zip</type>
                   <outputDirectory>${basedir}/target/plugins/pentaho-big-data-plugin/hadoop-configurations</outputDirectory>
                 </artifactItem>

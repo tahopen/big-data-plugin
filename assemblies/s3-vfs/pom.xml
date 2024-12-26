@@ -3,12 +3,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>pentaho</groupId>
-    <artifactId>pentaho-big-data-assemblies</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-big-data-assemblies</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>pentaho-s3-vfs-plugin</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <artifactId>tahopen-s3-vfs-plugin</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <licenses>
     <license>
@@ -18,19 +18,14 @@
       <comments>A business-friendly OSS license</comments>
     </license>
   </licenses>
-  <scm>
-    <connection>scm:git:git@github.com:${github.user}/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:${github.user}/${project.artifactId}.git</developerConnection>
-    <url>scm:git:git@github.com:${github.user}/${project.artifactId}.git</url>
-  </scm>
   <properties>
     <publish-sonar-phase>site</publish-sonar-phase>
   </properties>
 
   <dependencies>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-s3-vfs</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-s3-vfs</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>
