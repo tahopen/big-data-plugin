@@ -3,31 +3,31 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>pentaho</groupId>
-    <artifactId>pentaho-big-data-kettle-plugins</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-big-data-kettle-plugins</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>pentaho-big-data-kettle-plugins-guiTestActionHandlers</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <artifactId>tahopen-big-data-kettle-plugins-guiTestActionHandlers</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <dependencies>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-big-data-api-runtimeTest</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-big-data-api-runtimeTest</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
       <version>${pdi.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
       <version>${pdi.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-ui-swt</artifactId>
       <version>${pdi.version}</version>
     </dependency>

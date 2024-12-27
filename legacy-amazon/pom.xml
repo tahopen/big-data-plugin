@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>pentaho</groupId>
-    <artifactId>pentaho-big-data-bundles</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-big-data-bundles</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>pentaho-big-data-legacy-amazon</artifactId>
+  <artifactId>tahopen-big-data-legacy-amazon</artifactId>
   <packaging>bundle</packaging>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0-SNAPSHOT</version>
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
@@ -36,14 +36,14 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-big-data-legacy</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-big-data-legacy</artifactId>
       <version>${project.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-big-data-legacy-core</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-big-data-legacy-core</artifactId>
       <version>${project.version}</version>
       <scope>provided</scope>
     </dependency>
@@ -182,19 +182,19 @@
       <artifactId>slf4j-api</artifactId>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
       <version>${pdi.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
       <version>${pdi.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-ui-swt</artifactId>
       <version>${pdi.version}</version>
       <scope>provided</scope>
@@ -253,7 +253,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
       <version>${pdi.version}</version>
       <classifier>tests</classifier>
@@ -308,37 +308,37 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>shim-api-core</artifactId>
       <version>${pentaho-hadoop-shims.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>shim-api</artifactId>
       <version>${pentaho-hadoop-shims.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
       <version>${pdi.version}</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-platform-api</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-platform-api</artifactId>
       <version>${platform.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-platform-core</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-platform-core</artifactId>
       <version>${platform.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-s3-vfs</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-s3-vfs</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>
     </dependency>

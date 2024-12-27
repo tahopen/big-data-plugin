@@ -3,14 +3,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>pentaho</groupId>
-    <artifactId>pentaho-big-data-impl-vfs</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-big-data-impl-vfs</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
-  <artifactId>pentaho-big-data-impl-vfs-hdfs</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <artifactId>tahopen-big-data-impl-vfs-hdfs</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
-  <name>Pentaho Community Edition Project: ${project.artifactId}</name>
+  <name>Tahopen Community Edition Project: ${project.artifactId}</name>
   <properties>
     <publish-sonar-phase>site</publish-sonar-phase>
     <mockito.version>3.12.4</mockito.version>
@@ -18,30 +18,30 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
       <version>${pdi.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.pentaho.di.plugins</groupId>
-      <artifactId>pentaho-metastore-locator-api</artifactId>
+      <groupId>org.tahopen.di.plugins</groupId>
+      <artifactId>tahopen-metastore-locator-api</artifactId>
       <version>${pdi.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>shim-api</artifactId>
       <version>${pentaho-hadoop-shims.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>metastore</artifactId>
       <version>${metastore.version}</version>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-big-data-impl-cluster</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-big-data-impl-cluster</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>

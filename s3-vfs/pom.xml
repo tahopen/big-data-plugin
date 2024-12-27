@@ -5,14 +5,14 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>pentaho</groupId>
-    <artifactId>pentaho-big-data-bundles</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-big-data-bundles</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>pentaho</groupId>
-  <artifactId>pentaho-s3-vfs</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <groupId>org.tahopen</groupId>
+  <artifactId>tahopen-s3-vfs</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <licenses>
@@ -27,8 +27,8 @@
   <properties>
 
     <!-- pentaho dependencies -->
-    <pdi.version>10.1.0.0-SNAPSHOT</pdi.version>
-    <encryption-support.version>10.1.0.0-SNAPSHOT</encryption-support.version>
+    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
+    <encryption-support.version>9.4.0.0-SNAPSHOT</encryption-support.version>
 
     <!-- License Configuration -->
     <license.licenseName>apache_v2</license.licenseName>
@@ -41,10 +41,6 @@
     <mockito.version>3.12.4</mockito.version>
   </properties>
 
-  <scm>
-    <developerConnection>scm:git:git@github.com:pentaho/${project.artifactId}.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
 
   <!-- Third-party dependencies -->
   <dependencies>
@@ -98,15 +94,15 @@
       <artifactId>slf4j-api</artifactId>
     </dependency>
 
-    <!-- pentaho dependencies -->
+    <!-- tahopen dependencies -->
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
       <version>${pdi.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-ui-swt</artifactId>
       <version>${pdi.version}</version>
       <scope>provided</scope>
@@ -118,19 +114,19 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>shim-api-core</artifactId>
       <version>${pentaho-hadoop-shims.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
+      <groupId>org.tahopen</groupId>
       <artifactId>shim-api</artifactId>
       <version>${pentaho-hadoop-shims.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
       <version>${pdi.version}</version>
     </dependency>
@@ -143,7 +139,7 @@
 
     <!-- Test dependencies -->
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-engine</artifactId>
       <version>${pdi.version}</version>
       <classifier>tests</classifier>
@@ -168,7 +164,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho-kettle</groupId>
+      <groupId>tahopen-kettle</groupId>
       <artifactId>kettle-core</artifactId>
       <version>${pdi.version}</version>
       <classifier>tests</classifier>
