@@ -5,10 +5,10 @@
   <parent>
     <groupId>org.tahopen</groupId>
     <artifactId>tahopen-big-data-kettle-plugins</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
   <artifactId>tahopen-big-data-kettle-plugins-hdfs</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
   <packaging>bundle</packaging>
   <name>Tahopen Community Edition Project: ${project.artifactId}</name>
   <description>a Tahopen open source project</description>
@@ -16,7 +16,7 @@
   <properties>
     <publish-sonar-phase>site</publish-sonar-phase>
     <mockito.version>3.12.4</mockito.version>
-    <platform.version>10.1.0.0-SNAPSHOT</platform.version>
+    <platform.version>0.1.0.0</platform.version>
   </properties>
   <dependencies>
     <dependency>

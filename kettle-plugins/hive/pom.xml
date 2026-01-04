@@ -5,14 +5,14 @@
   <parent>
     <groupId>org.tahopen</groupId>
     <artifactId>tahopen-big-data-kettle-plugins</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
   <groupId>org.tahopen</groupId>
   <artifactId>tahopen-big-data-kettle-plugins-hive</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
   <packaging>bundle</packaging>
   <properties>
-    <platform.version>0.1.0.0-SNAPSHOT</platform.version>
+    <platform.version>0.1.0.0</platform.version>
   </properties>
   <dependencies>
     <dependency>

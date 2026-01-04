@@ -7,12 +7,12 @@
   <parent>
     <groupId>org.tahopen</groupId>
     <artifactId>tahopen-big-data-bundles</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
 
   <groupId>org.tahopen</groupId>
   <artifactId>tahopen-s3-vfs</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
   <packaging>jar</packaging>
 
   <licenses>
@@ -27,7 +27,7 @@
   <properties>
 
     <!-- pentaho dependencies -->
-    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
+    <pdi.version>0.1.0.0</pdi.version>
     <encryption-support.version>9.4.0.0-SNAPSHOT</encryption-support.version>
 
     <!-- License Configuration -->

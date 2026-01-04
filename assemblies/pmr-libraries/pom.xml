@@ -5,10 +5,10 @@
   <parent>
     <groupId>org.tahopen</groupId>
     <artifactId>tahopen-big-data-assemblies</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
   <artifactId>tahopen-big-data-assemblies-pmr-libraries</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
   <packaging>pom</packaging>
   <properties>
     <publish-sonar-phase>site</publish-sonar-phase>
@@ -16,7 +16,7 @@
     <rxjava.version>2.2.3</rxjava.version>
     <jsch.version>0.2.9</jsch.version>
     <encryption-support.version>9.4.0.0-SNAPSHOT</encryption-support.version>
-    <pdi-osgi-bridge.version>0.1.0.0-SNAPSHOT</pdi-osgi-bridge.version>
+    <pdi-osgi-bridge.version>0.1.0.0</pdi-osgi-bridge.version>
   </properties>
   <dependencies>
     <dependency>
@@ -822,7 +822,7 @@
     <dependency>
       <groupId>org.tahopen</groupId>
       <artifactId>simple-jndi</artifactId>
-      <version>0.1.0.0-SNAPSHOT</version>
+      <version>0.1.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.tahopen</groupId>
