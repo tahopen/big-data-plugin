@@ -12,7 +12,7 @@
   <packaging>bundle</packaging>
   <name>Tahopen Community Edition Project: ${project.artifactId}</name>
   <description>a Tahopen open source project</description>
-  <url>http://www.tahopen.org</url>
+  <url>https://www.tahopen.org</url>
   <properties>
     <publish-sonar-phase>site</publish-sonar-phase>
     <easymock.versin>3.0</easymock.versin>
@@ -37,7 +37,7 @@
     </dependency>
     <dependency>
       <groupId>org.tahopen.di.plugins</groupId>
-      <artifactId>pentaho-metastore-locator-api</artifactId>
+      <artifactId>tahopen-metastore-locator-api</artifactId>
       <version>${pdi.version}</version>
       <scope>provided</scope>
     </dependency>
