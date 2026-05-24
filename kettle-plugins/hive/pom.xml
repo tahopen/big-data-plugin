@@ -33,7 +33,7 @@
     </dependency>
     <dependency>
       <groupId>org.tahopen.di.plugins</groupId>
-      <artifactId>pentaho-metastore-locator-api</artifactId>
+      <artifactId>tahopen-metastore-locator-api</artifactId>
       <version>${pdi.version}</version>
     </dependency>
     <dependency>

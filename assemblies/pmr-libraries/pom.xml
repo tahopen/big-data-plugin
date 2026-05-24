@@ -15,7 +15,7 @@
     <blueprints-core.version>2.6.0</blueprints-core.version>
     <rxjava.version>2.2.3</rxjava.version>
     <jsch.version>0.2.9</jsch.version>
-    <encryption-support.version>9.4.0.0-SNAPSHOT</encryption-support.version>
+    <encryption-support.version>0.1.0.0</encryption-support.version>
     <pdi-osgi-bridge.version>0.1.0.0</pdi-osgi-bridge.version>
   </properties>
   <dependencies>
@@ -721,8 +721,8 @@
       <version>${pdi.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.pentaho</groupId>
-      <artifactId>pentaho-encryption-support</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-encryption-support</artifactId>
       <version>${encryption-support.version}</version>
     </dependency>
     <dependency>
@@ -1031,12 +1031,16 @@
       <groupId>org.apache.karaf.diagnostic</groupId>
       <artifactId>org.apache.karaf.diagnostic.boot</artifactId>
     </dependency>
+
+
     <dependency>
-      <groupId>org.hitachivantara.karaf.assemblies</groupId>
+      <groupId>org.tahopen.karaf.assemblies</groupId>
       <artifactId>pmr</artifactId>
       <version>${pentaho-karaf.version}</version>
       <type>zip</type>
     </dependency>
+
+
     <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka-clients</artifactId>
@@ -1093,6 +1097,7 @@
             <goals>
               <goal>unpack</goal>
             </goals>
+<!--
             <configuration>
               <artifactItems>
                 <artifactItem>
@@ -1103,6 +1108,7 @@
                 </artifactItem>
               </artifactItems>
             </configuration>
+-->
           </execution>
         </executions>
       </plugin>
