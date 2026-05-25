@@ -1097,18 +1097,16 @@
             <goals>
               <goal>unpack</goal>
             </goals>
-<!--
             <configuration>
               <artifactItems>
                 <artifactItem>
-                  <groupId>org.hitachivantara.karaf.assemblies</groupId>
+                  <groupId>org.tahopen.karaf.assemblies</groupId>
                   <artifactId>pmr</artifactId>
                   <type>zip</type>
                   <outputDirectory>target/dependencies/karaf</outputDirectory>
                 </artifactItem>
               </artifactItems>
             </configuration>
--->
           </execution>
         </executions>
       </plugin>

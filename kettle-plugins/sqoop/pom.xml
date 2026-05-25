@@ -12,7 +12,7 @@
   <packaging>bundle</packaging>
   <name>Tahopen Community Edition Project: ${project.artifactId}</name>
   <description>a Tahopen open source project</description>
-  <url>http://www.tahopen.com</url>
+  <url>https://www.tahopen.com</url>
   <properties>
     <publish-sonar-phase>site</publish-sonar-phase>
     <platform.version>0.1.0.0</platform.version>

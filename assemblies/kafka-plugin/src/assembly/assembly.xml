@@ -22,7 +22,7 @@
         <include>*</include>
       </includes>
       <excludes>
-        <exclude>pentaho:pentaho-big-data-kettle-plugins-kafka:jar</exclude>
+        <exclude>org.tahopen:tahopen-big-data-kettle-plugins-kafka:jar</exclude>
         <exclude>org.apache.kafka:kafka-clients:jar</exclude>
         <exclude>org.slf4j:*</exclude>
       </excludes>
@@ -30,7 +30,7 @@
     <dependencySet>
       <useProjectArtifact>false</useProjectArtifact>
       <includes>
-        <include>pentaho:pentaho-big-data-kettle-plugins-kafka:jar</include>
+        <include>org.tahopen:tahopen-big-data-kettle-plugins-kafka:jar</include>
       </includes>
     </dependencySet>
   </dependencySets>

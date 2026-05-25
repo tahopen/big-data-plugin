@@ -63,25 +63,25 @@
     <feature>pentaho-big-data-plugin-api</feature>
     <feature>cxf-jaxrs</feature>
     <feature>pentaho-jackson</feature>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-common-ui/${project.version}</bundle>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-common-job/${project.version}</bundle>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-guiTestActionHandlers/${project.version}</bundle>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-hdfs/${project.version}</bundle>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-hbase/${project.version}</bundle>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-hbase-meta/${project.version}</bundle>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-mapreduce/${project.version}</bundle>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-pig/${project.version}</bundle>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-oozie/${project.version}</bundle>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-sqoop/${project.version}</bundle>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-hive/${project.version}</bundle>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-spark/${project.version}</bundle>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-formats-meta/${project.version}</bundle>
-    <bundle>mvn:pentaho/pentaho-big-data-kettle-plugins-formats/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-common-ui/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-common-job/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-guiTestActionHandlers/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-hdfs/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-hbase/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-hbase-meta/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-mapreduce/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-pig/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-oozie/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-sqoop/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-hive/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-spark/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-formats-meta/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/tahopen-big-data-kettle-plugins-formats/${project.version}</bundle>
   </feature>
 
   <feature name="pentaho-hadoop-cluster-ui" version="1.0">
-    <bundle>mvn:org.pentaho.di.plugins/core-ui/${project.version}</bundle>
-    <bundle>mvn:pentaho/hadoop-cluster-ui/${project.version}</bundle>
+    <bundle>mvn:org.tahopen.di.plugins/core-ui/${project.version}</bundle>
+    <bundle>mvn:org.tahopen/hadoop-cluster-ui/${project.version}</bundle>
     <bundle>pentaho-webjars:mvn:org.webjars.bower/angular/${angular.version}</bundle>
     <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-animate/${angular.version}</bundle>
     <bundle>pentaho-webjars:mvn:org.webjars.bower/angular-i18n/${angular.version}</bundle>
